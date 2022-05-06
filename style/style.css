@@ -1,0 +1,331 @@
+@ charset "utf-8";
+  body{
+	  
+	 padding:0;
+     margin:0;	 
+	  
+  }
+  /* start header coding*/
+  #head-image{
+  width:100%;
+  height:300px;
+  float:left;
+  box-sizing:border-box;
+  background-image:url(../pic/car.gif);
+  
+  }
+  
+  #head-text{
+	  color:white;
+	  font-family:sens-serif;
+	  line-height:60px;
+	  margin-left:20px;
+	  }
+	  
+ #head-in{
+	 
+	 width:530px;
+	 height:31px;
+	 border:1px solid #ccc;
+	 background:#F44E75;
+	 margin-left:20px;
+	 margin-top:40px;
+	 
+	 font-size:22px;
+	 font-family:sens-serif;
+	 color:blue;
+	 opacity:90%;
+	 padding:4px;
+	 float:left;
+	 border-top-left-radius:14px;
+	 border-bottom-left-radius:14px;
+	 
+ }
+ #btn-box{
+	 width:148px;
+	 height:27px;
+	 
+	 background:white;
+	 float:left;
+	 margin-top:40px;
+	 padding:7px;
+	 border-top-right-radius:14px;
+	 border-bottom-right-radius:14px;
+ }
+ 
+ #head-btn{
+	 width:140px;
+	 height:30px;
+	 border:1px solid #ccc;
+	 background:#F26510;
+     color:white;
+     margin-left:3px;
+     margin-top:-2px;
+     font-weight:bold;
+     font-size:21px;
+     font-family:calibri;
+	 cursor:pointer;
+     	 
+	 
+ }
+ #corona{
+	 width:63%;
+	 height:40px;
+	 background:#F4B2B2;
+	 float:left;
+	 box-sizing:border-box;
+	 margin-left:37%;
+	 color:black;
+	 font-family:sens-serif;
+	 font-size:28px;
+	 padding:5px;
+	 
+ }
+ #ani-write{
+	 padding:0;
+	 margin:0;
+	 float:right;
+	 position:relative;
+	 top:2px;
+	 left:-35px;
+	 color:red;
+	 font-family:sens-serif;
+	 font-size:22px;
+	 cursor:pointer;
+	 -webkit-animation:Text 2s infinite;
+	 -o-animation:Text 2s infinite;
+	 -moz-animation:Text 2s infinite;
+	 animation:Text 2s infinite;
+ }
+ /* START ANIMATION WHEN YOU CHANGE ANIMATION NAME SPALING*/
+ @-webkit-Keyframes Text{
+	 0%{color:red;font-size:20px;top:2px;left:-35px;}
+	 20%{color:purple;font-size:22px;top:2px;left:-30px;}
+	 40%{color:green;font-size:24px;top:1px;left:-25px;}
+	 60%{color:orange;font-size:26px;top:1px;left:-20px;}
+	 80%{color:blue;font-size:28px;top:-1px;left:-15px;}
+	 100%{color:cyan;font-size:28px;top:-1px;left:-15px;}
+	 
+	 
+ }
+ @-o-keyframes Text{
+	 0%{color:red;font-size:20px;top:2px;left:-35px;}
+	 20%{color:purple;font-size:22px;top:2px;left:-30px;}
+	 40%{color:green;font-size:24px;top:1px;left:-25px;}
+	 60%{color:orange;font-size:26px;top:1px;left:-20px;}
+	 80%{color:blue;font-size:28px;top:-1px;left:-15px;}
+	 100%{color:cyan;font-size:28px;top:-1px;left:-15px;}
+	 
+	 
+ }
+ @-moz-keyframes text{
+	 0%{color:red;font-size:20px;top:2px;left:-35px;}
+	 20%{color:purple;font-size:22px;top:2px;left:-30px;}
+	 40%{color:green;font-size:24px;top:1px;left:-25px;}
+	 60%{color:orange;font-size:26px;top:1px;left:-20px;}
+	 80%{color:blue;font-size:28px;top:-1px;left:-15px;}
+	 100%{color:cyan;font-size:28px;top:-1px;left:-15px;}
+	 
+	 
+ }
+ @keyframes Text{
+	 0%{color:red;font-size:20px;top:2px;left:-35px;}
+	 20%{color:purple;font-size:22px;top:2px;left:-30px;}
+	 40%{color:green;font-size:24px;top:1px;left:-25px;}
+	 60%{color:orange;font-size:26px;top:1px;left:-20px;}
+	 80%{color:blue;font-size:28px;top:-1px;left:-15px;}
+	 100%{color:cyan;font-size:28px;top:-1px;left:-15px;}
+	 
+	 
+ }
+ #contener{
+	 width:36%;
+	 height:41px;
+	 float:left;
+	 box-sizing:border-box;
+	 margin-top:-40px;
+	 background:#F4B2B2;
+ }
+ #con{
+	 width:100px;
+	 height:40px;
+	 
+	 float:left;
+	 box-sizing:border-box;
+	 padding:0;
+	 margin:0;
+	
+	 padding:5px;
+	 font-family:sens-serif;
+	 font-weight:bold;
+	 font-size:28px;
+	 background:#2F98F1;
+	 color:white;
+	 text-align:center;
+	 box-shadow:3px 3px 3px cyan;
+ }
+ #icon-set{
+	 width:60px;
+	 height:40px;
+	 float:left;
+	 box-sizing:border-box;
+	 border:1px solid red;
+	 margin-left:8px;
+	 
+	 padding:5px;
+	 background:#F5394F;
+	 border-radius:5px;
+ }
+ #people-icon{
+	color:white;
+    margin-left:8px;
+    font-size:34px;
+	margin-top:-4px;
+	box-shadow:1px 1px 1px #ccc;
+ }
+ #num{
+	 width:120px;
+	 height:30px;
+	 float:left;
+	 box-sizing:border-box;
+	 background:#46ABDA;
+	 margin-top:5px;
+	 margin-left:3px;
+	 padding:2px;
+	 font-size:22px;
+	 color:white;
+	 font-weight:bold;
+	 
+ }
+ #like-set{
+	 width:100px;
+	 height:38px;
+	 float:left;
+	 box-sizing:border-box;
+	 margin:3px;
+	 margin-top:2px;
+ }
+ #icon-div{
+	 width:35px;
+	 height:35px;
+	 border-radius:50%;
+	 background:#46ABDA;
+ }
+ #like-num{
+	 width:54px;
+	 height:30px;
+	 float:left;
+	 box-sizing:border-box;
+	 margin-top:-31px;
+	 margin-left:38px;
+	 color:#E63A4A;
+	 font-family:sens-serif;
+	 font-weight:bold;
+ }
+ #like-icon{
+	 color:white;
+	 margin-left:5px;
+	 font-size:24px;
+	 margin-top:3px;
+	 cursor:pointer;
+ }
+ #unlike-set{
+	 width:80px;
+	 height:38px;
+	 float:left;
+	 box-sizing:border-box;
+	 margin:3px;
+	 margin-top:2px;
+ }
+ #un-icon{
+	 width:35px;
+	 height:35px;
+	 border-radius:50%;
+	 background:#46ABDA;
+ }
+ #dnt-like{
+	 color:white;
+	 margin-left:5px;
+	 font-size:24px;
+	 margin-top:3px;
+	 cursor:pointer;
+ }
+ #un-like-num{
+	 width:36px;
+	 height:28px;
+	 float:left;
+	 box-sizing:border-box;
+	 margin-top:-32px;
+	 margin-left:39px;
+	 color:#CC2487;
+	 font-family:sens-serif;
+	 font-weight:bold;
+	 padding:1px;
+	 
+ }
+ input:focus{
+	 outline:none;
+ }
+  
+  
+  
+ /* end header coding*/
+ 
+ 
+ /* start section coding*/
+ #sec-cod{
+	 width:1310px;
+	 height:1200px;
+	 border:1px solid red;
+	 float:left;
+	
+	 box-sizing:border-box;
+	 margin-left:4%;
+	 margin-right:3%;
+	 padding:1px;
+	 
+ }
+ /* start contact-section coding*/
+ #start-con-div{
+	 width:60%;
+	 height:1100px;
+	 border:1px solid red;
+	 float:left;
+	 box-sizing:border-box;
+	 padding:1px;
+ }
+ #first-con-contener{
+	width:99%;
+    height:280px;
+    float:left;
+    box-sizing:border-box;
+    border:1px solid red;
+    padding:1px;	
+ }
+ #first-pic{
+	 width:17%;
+	 height:275px;
+	 border:1px solid red;
+	 float:left;
+	 box-sizing:border-box;
+	 background-image:url(../pic/AUD.gif);
+	 background-repeat:no-repeat;
+ }
+ #first-list{
+	 width:85%;
+	 height:275px;
+	 border:1px solid red;
+	 float:left;
+	 box-sizing:border-box;
+ }
+ 
+ /* end contact-section coding*/
+ #start-about{
+	 width:40%;
+	 height:1150px;
+	 border:1px solid red;
+	 float:left;
+	 box-sizing:border-box;
+ }
+ 
+ /* end section coding*/
